@@ -22,7 +22,8 @@ process BBMAP_REPAIR {
 
     output:
     tuple val(meta), path("*.repair.R{1,2}.fastq.gz"), emit: fixed_fqs
-    path "*.version.txt"                      , emit: version
+    tuple val(meta), path("*log.txt")                , emit: bbrepair_log
+    path "*.version.txt"                             , emit: version
 
     script:
     def software = getSoftwareName(task.process)
@@ -34,7 +35,8 @@ process BBMAP_REPAIR {
         in2=$reads[1] \\
         out=${prefix}.repair.R1.fastq.gz \\
         out2=${prefix}.repair.R2.fastq.gz \\
-        threads=$task.cpus 
+        threads=$task.cpus \\
+        2>${prefix}.log.txt
     
     echo \$(bbversion.sh) > ${software}.version.txt
     """
