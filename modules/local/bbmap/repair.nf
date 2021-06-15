@@ -46,5 +46,6 @@ process BBMAP_REPAIR {
     touch ${prefix}.repair.R1.fastq.gz
     touch ${prefix}.repair.R2.fastq.gz
     touch repair.stub.version.txt
+    touch ${prefix}.log.txt
     """
 }
