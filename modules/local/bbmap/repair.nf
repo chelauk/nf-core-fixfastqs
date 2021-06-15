@@ -31,8 +31,8 @@ process BBMAP_REPAIR {
     """
     repair.sh \\
         repair.sh \\
-        in=$reads[0] \\
-        in2=$reads[1] \\
+        in=${reads[0]} \\
+        in2=${reads[1]} \\
         out=${prefix}.repair.R1.fastq.gz \\
         out2=${prefix}.repair.R2.fastq.gz \\
         threads=$task.cpus \\
