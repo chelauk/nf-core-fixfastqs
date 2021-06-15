@@ -5,7 +5,7 @@ labels: bug
 ---
 
 <!--
-# nf-core/testpipeline bug report
+# nf-core/fixfastqs bug report
 
 Hi there!
 
@@ -18,7 +18,7 @@ Please delete this text and anything that's not relevant from the template below
 I have checked the following places for your error:
 
 - [ ] [nf-core website: troubleshooting](https://nf-co.re/usage/troubleshooting)
-- [ ] [nf-core/testpipeline pipeline documentation](https://nf-co.re/nf-core/testpipeline/usage)
+- [ ] [nf-core/fixfastqs pipeline documentation](https://nf-co.re/nf-core/fixfastqs/usage)
 
 ## Description of the bug
 
@@ -57,7 +57,7 @@ Have you provided the following extra information/files:
 
 - Engine: <!-- [e.g. Conda, Docker, Singularity, Podman, Shifter or Charliecloud] -->
 - version: <!-- [e.g. 1.0.0] -->
-- Image tag: <!-- [e.g. nfcore/testpipeline:1.0.0] -->
+- Image tag: <!-- [e.g. nfcore/fixfastqs:1.0.0] -->
 
 ## Additional context
 
