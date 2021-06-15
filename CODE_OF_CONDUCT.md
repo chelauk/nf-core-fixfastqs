@@ -109,4 +109,3 @@ All reports will be handled with utmost discretion and confidentially.
 ### v1.0 - March 12th, 2021
 
 - Complete rewrite from original [Contributor Covenant](http://contributor-covenant.org/) CoC.
-
